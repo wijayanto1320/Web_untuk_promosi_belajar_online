@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Tutor</title>
+    <script src="kodejs.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+      <header id="nav">
+        <div class="tengah">
+          <div class="kanan">
+            <h1>SmartTutor</h1>
+          </div>
+          <div class="Kiri">
+            <div class="menu">
+              <a href="index.html">Beranda</a>
+              <a href="index2.html">Para Alumni</a>
+            </div>
+            <a href="daftar.html" class="daftar">
+                <button type="button" name="button"    class="kotak">Daftar Sekarang</button>
+            </a>
+          </div>
+        </div>
+      </header>
+      <main id="daftar">
+        <div class="kosong putih">
+        </div>
+        <div class="daftarm tgh clearfix">
+          <form class="tgh" action="selesai.html">
+            <h1>Pendaftara Progam Smart Tutor</h1>
+            <table class="tgh" border="1">
+              <tr>
+                <td><label for="">Nama Lengkap</label></td>
+                <td> : <input type="text" name="" placeholder="tuliskan nama lengkapmu"></td>
+              </tr>
+              <tr>
+                <td><label for="">Sekolah</label></td>
+                <td> : <input type="text" name="" placeholder="tuliskan nama sekolahmu"></td>
+              </tr>
+              <tr>
+                <td><label for="">kelamin</label></td>
+                <td> :
+                  <input list="kelamin">
+                  <datalist id="kelamin">
+                    <option value="laki-laki">
+                    <option value="Perempuan">
+                  </datalist>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="hp">Nomer HP(aktif WA)</label></td>
+                <td>: <input type="tel" name="" value="" required></td>
+              </tr>
+              <tr>
+                <td>Alamat</td>
+                <td>: <textarea name="alamt" rows="8" cols="80"></textarea></td>
+              </tr>
+            </table>
+            <input  onclick="konfirmasi()" type="submit" value="Kirim" id="submit">
+          </form>
+        </div>
+      </main>
+      <footer class="clearfix">
+        <div class="tengah">
+          <div class="posisi">
+              <table>
+                  <tr>
+                      <th><h1>SmartTutor</h1></th>
+                  </tr>
+                  <tr>
+                      <td><p>adalah progam yang dibuat untuk membuat kamu melanjutkan pendidikan ke perguruan tinggi impianmu.</p></td>
+                  </tr>
+              </table>
+          </div>
+          <div class="posisi2">
+            <h1>Kontak</h1>
+              <table>
+                  <tr>
+                      <th><img src="hiclipart.com.png" alt="logoWhatsapp"></th>
+                      <th>081233321123</th>
+                  </tr>
+              </table>
+          </div>
+        </div>
+      </footer>
+  <script>
+    function konfirmasi(){
+      alert ('Data anda sudah kami terima, silahkan tunggu konfirmasi selanjutnya !!')
+    }
+  </script>
+<body>
+</html>

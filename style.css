@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&display=swap");
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+}
+
+body {
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  display: block;
+  z-index: 2;
+}
+.tengah {
+  margin: 0 auto;
+  width: 90%;
+  height: 70px;
+}
+header .Kiri {
+  float: right;
+  margin: 5px;
+  padding: 5px;
+}
+.kotak {
+  padding: 10px 10px;
+  font-size: 20px;
+  border-radius: 25px;
+  color: #fff;
+  background-color: #fe7004;
+  border-color: #fe7004;
+}
+.kotak:hover {
+  background-color: #ff9900;
+}
+.menu {
+  display: inline-block;
+  margin: 0;
+}
+.menu a {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+  height: 100%;
+  border-radius: 25px;
+}
+.menu a:hover {
+  background-color: #44749d;
+  color: rgb(255, 255, 255);
+}
+.kanan {
+  font-size: 50px;
+  font-family: "Lobster Two", cursive;
+  float: left;
+}
+.kosong {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 70px;
+  display: block;
+}
+.hlmn1 {
+  position: relative;
+  height: 570px;
+  background: black 0.8;
+}
+.bgop {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  color: white;
+  padding-top: 70px;
+  font-size: 20px;
+}
+.tgh {
+  width: 80%;
+  margin: 0 auto;
+}
+.hlmn1 h1 {
+  font-size: 70px;
+  margin-top: 10%;
+}
+.tgh p {
+  margin-top: 25px;
+}
+.hlmn2 {
+  position: relative;
+}
+.hlmn2 h1 {
+  font-family: Lobster;
+  text-align: center;
+  font-size: 48px;
+  margin: 20px;
+}
+#testimoni {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.testimoni {
+  background-color: white;
+  height: 300px;
+  width: 200px;
+  border-radius: 10px black;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 4px #000000;
+}
+.testimoni img {
+  width: 200px;
+  height: 200px;
+}
+.testimoni h2 {
+  font-size: 20px;
+}
+#univ {
+  margin-top: 0px;
+  padding: 0;
+  font-family: cursive;
+  font-size: 15px;
+}
+#llb {
+  font-family: monospace;
+  color: #000099;
+  background: transparent;
+  border: 0px;
+  border: 1px solid #000099;
+  margin-right: 20px;
+}
+#llb:hover {
+  font-family: monospace;
+  color: white;
+  background: #000099;
+  border: 0px;
+  background: rgb(68, 116, 157);
+  border: 1px solid #000099;
+}
+.hlmn3 {
+  background-color: #f7f9fc;
+}
+.k1 {
+  display: flex;
+  justify-content: space-around;
+}
+.k2 {
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #eaedf2;
+  background-color: white;
+  text-align: center;
+  margin: 30px;
+  border-radius: 10px black;
+}
+.k2:hover {
+  box-shadow: 2px 2px 4px #000000;
+}
+.k2 p {
+  color: #7a7e86;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.hlmn4 {
+  background-color: rgb(1, 139, 212);
+}
+h2,
+h1 {
+  text-align: center;
+}
+.hlmn4 h2 {
+  font-size: 25px;
+  color: white;
+}
+.hlmn4 h2 span {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+
+.hlmn4 .pad h1 {
+  color: black;
+}
+#df {
+  font-family: monospace;
+  color: #ffc107;
+  background: transparent;
+  border: 0px;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto;
+  margin-bottom: 30px;
+  border: 3px solid #ffc107;
+  border-radius: 10px;
+}
+#df:hover {
+  font-family: monospace;
+  color: white;
+  background: #ffc107;
+  border: 0px;
+  border: 3px solid #ffc107;
+}
+.pad {
+  padding: 80px;
+  height: 350px;
+}
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #c6d4e1;
+  font-size: 20px;
+  padding: 25px;
+}
+footer .posisi {
+  float: left;
+  width: 350px;
+}
+footer .posisi2 {
+  float: right;
+}
+.clearfix::after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+.tombol {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin: 30px;
+}
+th img {
+  width: 50px;
+  height: 50px;
+}
+form table tr input {
+  margin: 10px;
+}
+#submit {
+  float: right;
+  padding: 10px;
+  margin: 15px;
+  margin-right: 100px;
+}
+#daftar {
+  background: #44749d;
+  padding-bottom: 20px;
+}
+.daftarm h1 {
+  font-size: 30px;
+  padding: 30px;
+  border: 3px dotted black;
+  margin-bottom: 20px;
+}
+.daftarm {
+  padding: 30px;
+  background: white;
+  margin-top: 20px;
+}
+.putih {
+  background: white;
+}
+.tk {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 250px;
+  border: 3px dotted black;
+  text-align: center;
+  margin: 0 auto;
+}
+.kata {
+  text-align: center;
+}
+.ah {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+.daftar {
+  text-decoration: none;
+}
